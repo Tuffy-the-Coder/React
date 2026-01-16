@@ -1,0 +1,14 @@
+ui {
+    display: flex;
+    color: white;
+    font-size: 1.23rem;
+    list-style: none;
+    gap: 400px;
+}
+nav {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
