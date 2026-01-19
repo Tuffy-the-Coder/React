@@ -7,13 +7,13 @@ export default function DigitalClock() {
     const [time, setTime] = useState(new Date());
 
     useEffect( () => {
-        console.log("mount");
+        // console.log("mount");
         const intervalId = setInterval(()=> {
             setTime(new Date());
         },1000)
 
     return () => {
-        console.log("demount");
+        // console.log("demount");
         clearInterval(intervalId);
     }
     }, []);
