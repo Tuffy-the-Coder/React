@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    padding: 10px;
+}
+.form-container{
+    border: 3px solid white;
+    border-style: double;
+    border-radius: 5px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+input{
+    width: 235px;
+    height: 35px;
+    margin: 5px;
+    padding: 6px;
+    font-size: 1.3rem;
+}
+textarea {
+    padding: 3px;
+    margin: 5px;
+    width: 350px;
+    height: 80px;
+    font-size: 1rem;
+}
+button {
+    padding: 3px;
+    margin: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.notes-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.note {
+    height: 195px;
+    width: 190px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    position: relative;
+}
+.delete-note {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: .8rem;
+    cursor: pointer;
+    opacity: 60%;
+}
+.delete-note:hover{
+    opacity: 100%;
+}
+.description{
+    font-size: 0.75rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

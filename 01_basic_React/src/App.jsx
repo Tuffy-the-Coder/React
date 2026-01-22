@@ -6,14 +6,16 @@
 // import Greeting from "./conditionalRendering/Greeting"
 // import List from "./Lists/List"
 // import Cards from "./cards/Cards"
-import Events from "./events/Events"
+// import Events from "./events/Events"
+// import FormHandling from "./formHandling/FormHandling"
+import NotesApp from "./formHandling/NotesApp"
 
 
 function App() {
 
   return (
     <>
-      <Events />
+      <NotesApp />
     </>
   )
 }
