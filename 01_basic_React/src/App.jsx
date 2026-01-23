@@ -8,14 +8,15 @@
 // import Cards from "./cards/Cards"
 // import Events from "./events/Events"
 // import FormHandling from "./formHandling/FormHandling"
-import NotesApp from "./formHandling/NotesApp"
+// import NotesApp from "./formHandling/NotesApp"
+import Routing from "./Routing/basicRouting"
 
 
 function App() {
 
   return (
     <>
-      <NotesApp />
+      <Routing />
     </>
   )
 }
