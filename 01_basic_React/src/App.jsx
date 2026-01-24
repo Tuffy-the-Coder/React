@@ -9,14 +9,15 @@
 // import Events from "./events/Events"
 // import FormHandling from "./formHandling/FormHandling"
 // import NotesApp from "./formHandling/NotesApp"
-import Routing from "./Routing/basicRouting"
+// import Routing from "./Routing/basicRouting"
+import AdvanceRouting from "./Routing/AdvanceRouting"
 
 
 function App() {
 
   return (
     <>
-      <Routing />
+      <AdvanceRouting />
     </>
   )
 }
