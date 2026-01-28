@@ -10,14 +10,16 @@
 // import FormHandling from "./formHandling/FormHandling"
 // import NotesApp from "./formHandling/NotesApp"
 // import Routing from "./Routing/basicRouting"
-import AdvanceRouting from "./Routing/AdvanceRouting"
+// import AdvanceRouting from "./Routing/AdvanceRouting"
+import UseContext from "./hooks/UseContext"
+
 
 
 function App() {
 
   return (
     <>
-      <AdvanceRouting />
+      <UseContext />
     </>
   )
 }
