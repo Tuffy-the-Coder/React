@@ -11,7 +11,9 @@
 // import NotesApp from "./formHandling/NotesApp"
 // import Routing from "./Routing/basicRouting"
 // import AdvanceRouting from "./Routing/AdvanceRouting"
-import UseContext from "./hooks/UseContext"
+// import UseContext from "./hooks/UseContext"
+
+import UseMemo from "./hooks/UseMemo"
 
 
 
@@ -19,7 +21,7 @@ function App() {
 
   return (
     <>
-      <UseContext />
+      <UseMemo />
     </>
   )
 }
