@@ -12,8 +12,8 @@
 // import Routing from "./Routing/basicRouting"
 // import AdvanceRouting from "./Routing/AdvanceRouting"
 // import UseContext from "./hooks/UseContext"
-
-import UseMemo from "./hooks/UseMemo"
+// import UseMemo from "./hooks/UseMemo"
+import UseCallback from "./hooks/UseCallback"
 
 
 
@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <UseMemo />
+      <UseCallback />
     </>
   )
 }
