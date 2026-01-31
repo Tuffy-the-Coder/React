@@ -13,7 +13,9 @@
 // import AdvanceRouting from "./Routing/AdvanceRouting"
 // import UseContext from "./hooks/UseContext"
 // import UseMemo from "./hooks/UseMemo"
-import UseCallback from "./hooks/UseCallback"
+// import UseCallback from "./hooks/UseCallback"
+
+import ReversePropsDrilling from "./props/ReversePropsDrilling"
 
 
 
@@ -21,7 +23,7 @@ function App() {
 
   return (
     <>
-      <UseCallback />
+      <ReversePropsDrilling />
     </>
   )
 }
