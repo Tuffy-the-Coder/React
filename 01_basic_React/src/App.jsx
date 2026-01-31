@@ -14,8 +14,9 @@
 // import UseContext from "./hooks/UseContext"
 // import UseMemo from "./hooks/UseMemo"
 // import UseCallback from "./hooks/UseCallback"
+// import ReversePropsDrilling from "./props/ReversePropsDrilling"
 
-import ReversePropsDrilling from "./props/ReversePropsDrilling"
+import CustomHooks from "./hooks/CustomHooks"
 
 
 
@@ -23,7 +24,7 @@ function App() {
 
   return (
     <>
-      <ReversePropsDrilling />
+      <CustomHooks />
     </>
   )
 }
